@@ -13,7 +13,6 @@ public class Main {
         String path = args[0];
         scanner = new Scanner(new File(path));
         System.out.print("Dear president, please enter the board’s size.");//change
-        //cosinus//
         int board_length = scanner.nextInt();
         int board_height = scanner.nextInt();
         int board[][] = new int[board_height][board_length];
@@ -28,7 +27,6 @@ public class Main {
         System.out.println("All games are ended.");
     }
 
-    private
 }
 
 
