@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         String path = args[0];
         scanner = new Scanner(new File(path));
-        system.out.print("Dear president, please enter the board’s size.");
+        System.out.print("Dear president, please enter the board’s size.");//change
         int board_length = scanner.nextInt();
         int board_height = scanner.nextInt();
         int board[][] = new int[board_height][board_length];
